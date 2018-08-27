@@ -1,0 +1,10 @@
+<launch>
+
+  
+    <node pkg="joy" name="joy_node" type="joy_node"/>
+    <node pkg="sample_labeler" name="sample_labeler" type="picture_labeler.py" output="screen"/>
+    <node pkg="usb_cam" name="usb_cam_node" type="usb_cam_node"/>
+    
+  
+
+</launch>
